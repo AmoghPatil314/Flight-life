@@ -10,11 +10,11 @@ var END=0;
 var gameState=PLAY;
 
 function preload() {
-  skyImg=loadImage("Sky.PNG");
+  skyImg=loadImage("Sky.png");
   birdFlying=loadAnimation("Bird1.png","Bird2.png","Bird3.png");
   birdCollidedimg=loadAnimation("Bird2.png");
-  airplaneImg=loadImage("plane.PNG");
-  gameoverImg=loadImage("gameover.PNG");
+  airplaneImg=loadImage("plane.png");
+  gameoverImg=loadImage("gameover.png");
 }
 
 
